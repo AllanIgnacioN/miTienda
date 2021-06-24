@@ -122,7 +122,7 @@ if (isset($_GET["id_producto"])) {
                             <div class="form-group">
                                 <input type="hidden" name="confirm" value="1">
                                 <button type="submit" class="btn btn-primary">Enviar</button>
-                                <a href="index.php" class="btn btn-link">Volver</a>
+                                <a href="../productos/show.php?id=<?php echo $atributo["id"]; ?>" class="btn btn-link">Volver</a>
                             </div>
                         </form>
                     <?php else : ?>
